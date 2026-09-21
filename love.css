@@ -1,0 +1,16 @@
+body {
+    background: #ffe4ec;
+    color: #333;
+}
+.photo-block img {
+    width: 100%;           /* не шире контейнера */
+    max-width: 400px;      /* но не больше 500px */
+    height: auto;          /* сохранить пропорции */
+    border-radius: 16px;   /* скруглённые углы */
+    box-shadow: 0 20px 50px rgba(107, 47, 79, 0.25);
+    display: block;
+   
+}
+h1 {
+    text-align: center;
+}
